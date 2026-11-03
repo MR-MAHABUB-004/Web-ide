@@ -1,0 +1,12 @@
+{
+  "name": "web-ide",
+  "version": "1.0.0",
+  "description": "Self-hosted multi-project web IDE (editor + shell + run + per-project URL)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "http-proxy": "^1.18.1",
+    "ws": "^8.17.0"
+  }
+}
